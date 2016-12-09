@@ -737,6 +737,7 @@ footer ul.quicklinks {
     text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     aa_line-height: 40px;
+    padding-bottom: 15px; /* aggiunto da me */
 }
 
 ul.social-buttons {
