@@ -2,7 +2,7 @@
     <footer>
           <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-5">
                     <span class="copyright">
                       <!--Creative Commons License-->
                       <span style="color: white;">I contenuti del sito sono rilasciati con licenza</span>
@@ -10,7 +10,7 @@
                       <span style="color: white;">, salvo diversa indicazione della fonte.</span>
                       </span>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-2">
                     <ul class="list-inline social-buttons">
                         {% for network in site.social %}
                         <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
@@ -18,7 +18,19 @@
                         {% endfor %}
                     </ul>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-5">
+                    <ul class="list-inline quicklinks">
+                        <li>Associazione Rete Famiglie Adottive<br>
+                        Sede legale: Via Garigliano, 12 - 06135 Perugia PG<br>
+                        Codice fiscale: 94162210549<br>
+                        </li>
+                        <li>Telefono: +39 347 2309762<br>
+                        </li>
+                        <li>Per ogni informazione scrivere a:<br>
+                        <a href="mailto:rete.famiglie.adottive@gmail.com">rete.famiglie.adottive@gmail.com</a>
+                        </li>
+                    </ul>
+<!--
                     <ul class="list-inline quicklinks">
                         <li><a href="http://www.commissioneadozioni.it/">Commissione Adozioni Internaz.(CAI)</a><br>
                         </li>
@@ -27,6 +39,7 @@
                         <li><a href="http://www.comune.perugia.it/pagine/adozioni/">Servizio Adozioni Internaz.Perugia</a>
                         </li>
                     </ul>
+-->
                 </div>
             </div>
         </div>
