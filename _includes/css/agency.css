@@ -728,7 +728,7 @@ footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    line-height: 40px;
+    aa_line-height: 40px;
 }
 
 footer ul.quicklinks {
@@ -736,7 +736,7 @@ footer ul.quicklinks {
     text-transform: uppercase;
     text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    line-height: 40px;
+    aa_line-height: 40px;
 }
 
 ul.social-buttons {
